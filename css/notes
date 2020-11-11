@@ -1,0 +1,61 @@
+position : absolute (parent element which has its position as relative)
+
+
+Resetting and body
+*{
+    margin : 0;
+    padding :0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color : #777;
+    padding: 30px;
+}
+
+
+
+length in % (height , padding , margin) always related to parent width
+
+
+font based units -- em , rem
+
+em font -- x * parent font size
+
+em length (padding ,margin) --- x * uses font size of current element
+
+
+rem always uses root both font and lenfth
+
+
+
+View port based :
+vh  1% of view port height
+
+vw  1% of view port width
+
+
+display 
+
+block 100%of parent width and create line break
+
+inline :
+No height and width
+only left and right padding and margin
+
+inlie-block->
+no line break , only content space applies box model
+
+
+
+Positions :
+relative : normal flow 
+absolute : taken out of normal flow , No impact on surrounding contents , it can overlap elements on same sapce
+
+
+
+Blocl Elemet Modifier
